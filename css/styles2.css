@@ -1,0 +1,264 @@
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    /* font-weight: 700; */
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.85rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    padding-top: 15px;
+}
+
+.header-p {
+    font-size: 1.25rem;
+    /* padding-top: 15px; */
+}
+
+.centered-section {
+    text-align: center;
+    max-width: 43%;
+    padding: 1% auto;
+    margin: 5% auto;
+}
+
+.btn {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 32px;
+    margin: 0.5rem;
+}
+
+.buttons {
+    padding: 1.5rem 0;
+}
+
+.cyan {
+    background-color: hsl(171, 66%, 44%);
+    border-bottom: 4px solid  hsl(171, 66%, 35%);
+}
+
+.blue {
+    background-color: hsl(233, 100%, 69%);
+    border-bottom: 4px solid  hsl(233, 100%, 64%);
+}
+
+.cyan:hover {
+    background-color: hsl(171, 66%, 60%); /* Green */
+    border-bottom: 4px solid  hsl(171, 66%, 35%);
+    /* color: white; */
+}
+
+.blue:hover {
+    background-color: hsl(233, 100%, 80%);
+    border-bottom: 4px solid  hsl(233, 100%, 64%);
+}
+
+                                        /* Header */
+
+#header {
+    width: 100%;
+    /* height: 26.5rem; */ /* height: 424px; */
+    background-image: url('../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain; /* 100% 100%; */
+    text-align: center;
+    /* padding-bottom: 1%; */
+  
+}
+
+.container-logo {
+    padding: 8% 0 0;
+}
+
+.head-section {
+    margin-top: 3.5%;
+    margin-bottom: 7%;
+}
+
+                                        /* Content */
+
+.computer {
+    float: left;
+    width: 52%;
+    margin-left: -2.5%;
+    margin-right: 10%;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.right-float-blocks {
+    padding: 3%;
+}
+
+.small-block {
+    padding: 1.9% 17.5%;
+}
+
+.sm-block {
+    padding: 0;
+    line-height: 2;
+    font-size: 1rem;
+}
+
+.features {
+    padding-bottom: 6%;
+}
+
+.centered-image {
+    text-align: center;
+    padding-top: 1%;
+}
+
+.centr-image {
+    width: 55%;
+}
+
+.correct-margin {
+    margin-top: 4%;
+}
+
+.tools-elem {
+    text-align: center;
+}
+
+.p-tools {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.h3-tools {
+    margin-top: 12.5%;
+}
+
+.h3-tools-2 {
+    margin-top: 15%;
+}
+
+.partners {
+    margin: 12.5% auto 11.5%;
+}
+
+.partners-elem {
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.bottom-download {
+    margin-bottom: 7%;
+}
+
+                                        /* Footer */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-bottom: 0;
+    /* padding-top: 0; */
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+#footer {
+    background-color: hsl(201, 11%, 95%);
+}
+
+.footer-logo {
+    width: 55px;
+}
+
+.footer-container-logo {
+    padding-top: 3.5rem;
+    padding-right: 0;
+    padding-left: 4rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.footer-col ul li {
+    padding-top: 1rem;
+}
+
+.footer-col {
+    padding: 1.75rem 0.65rem 0;
+}
+
+.foot-col-1, .foot-col-2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.foot-col-1 ul {
+    padding-left: 2rem;
+}
+
+.foot-col-2 ul {
+    padding-left: 1rem;
+}
+
+                                   /*Social Icons*/
+
+.fab {
+    color:  hsl(210, 10%, 33%);
+}
+
+i {
+    font-size: 1.75rem;
+    padding: 0.75rem;
+}
+
+.social-icons ul li {
+    display: inline;
+}
+
+.social {
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-left: 10rem;
+}
+
+@media (max-width: 1440px) {
+    
+}
+
+
+@media (min-width: 1200px) {
+.cont-partners, .cont-foot {
+    max-width: 1240px;}
+}
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+
+/* the end */
